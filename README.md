@@ -1,4 +1,5 @@
 # XRP-Validator ripple.cfg
+```
 port_ws_admin_local
 [port_rpc_admin_local]
 port = 5005
@@ -49,3 +50,4 @@ xxxxxxxxxxxxxxxxxx
 
 [ssl_verify]
 1
+```
