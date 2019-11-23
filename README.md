@@ -16,14 +16,12 @@ ip = 127.0.0.1
 admin = 127.0.0.1
 protocol = ws
 
-# 32 GB memory
 [node_size]
 huge
 
-[ledger_history]  # This must be less than or equal to online_delete (if online_delete is used). The default is: 256
+[ledger_history]
 20000
 
-# SSD
 [node_db]
 type=NuDB
 path=/var/lib/rippled/db/nudb
@@ -49,13 +47,11 @@ time.nist.gov
 /opt/ripple/etc/validators.txt
 
 [validator_token]
-XXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXX
 
 [rpc_startup]
 { "command": "log_level", "severity": "warning" }
 
 [ssl_verify]
 1
-
-
 ```
