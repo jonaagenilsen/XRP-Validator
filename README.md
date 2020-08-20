@@ -26,9 +26,6 @@ huge
 #[ips_fixed]
 # Need to get this party started :)
 
-# 30000/60000 (ledger_history + online_delete = Kevin
-#  2000/ 2000 (ledger_history + online_delete = me
-
 # This must be less than or equal to online_delete (if online_delete is used). The default is: 256
 [ledger_history]
 50000
