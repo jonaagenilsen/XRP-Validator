@@ -1,5 +1,4 @@
 # XRP-Validator ripple.cfg
-```
 [server]
 port_rpc_admin_local
 port_ws_admin_local
@@ -75,4 +74,3 @@ reference_fee = 10
 account_reserve = 10000000
 # 2 XRP
 owner_reserve = 2000000
-```
